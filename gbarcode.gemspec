@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.require_paths << 'ext'
   s.rubyforge_project = %q{gbarcode}
   s.extensions = %w{ext/extconf.rb}
-  s.has_rdoc = false
+  s.has_rdoc = true
   s.required_ruby_version = '>= 1.8.5'
   s.requirements << 'gbarcode'
 end
